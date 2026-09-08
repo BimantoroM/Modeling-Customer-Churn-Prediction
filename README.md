@@ -52,7 +52,7 @@ Sama persis dengan project EDA (7.043 pelanggan, 33 kolom) supaya kedua project 
 | F1-Score (Churn) | 0,620 | 0,635 |
 | ROC-AUC | 0,849 | **0,851** |
 
-**5-Fold CV (Recall):** LR = 0,811 ± 0,024 · RF = 0,739 ± 0,016 — hasil stabil, bukan kebetulan split.
+**5-Fold CV (Recall):** LR = 0,811 ± 0,024 · RF = 0,739 ± 0,016 → hasil stabil, bukan kebetulan split.
 
 **McNemar's Test:** p-value = 0,0001 (< 0,05) → perbedaan performa kedua model **signifikan secara statistik**.
 
