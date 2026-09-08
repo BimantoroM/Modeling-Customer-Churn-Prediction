@@ -2,7 +2,7 @@
 
 Project lanjutan dari [Telco Customer Churn — Exploratory Data Analysis](https://github.com/BimantoroM/Telco-Customer-Churn-Exploratory-Data-Analysis). Kalau project sebelumnya fokus **menemukan pola** pendorong churn, project ini melangkah lebih jauh: membangun **model klasifikasi** untuk memprediksi pelanggan mana yang berisiko churn, lengkap dengan validasi statistik atas hasilnya.
 
-> 🔗 **Project sebelumnya:** [Telco Customer Churn — EDA]([../telco-churn-eda](https://github.com/BimantoroM/Telco-Customer-Churn-Exploratory-Data-Analysis)) — sumber insight & feature engineering yang dipakai ulang di project ini.
+> 🔗 **Project sebelumnya:** [Telco Customer Churn — EDA](https://github.com/BimantoroM/Telco-Customer-Churn-Exploratory-Data-Analysis) — sumber insight & feature engineering yang dipakai ulang di project ini.
 
 ---
 
