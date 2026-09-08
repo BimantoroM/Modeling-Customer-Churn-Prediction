@@ -27,18 +27,18 @@ Sama persis dengan project EDA (7.043 pelanggan, 33 kolom) supaya kedua project 
 ## 🔍 Alur Kerja
 
 1. **Replikasi Feature Engineering** dari project EDA (konsistensi antar project)
-2. **Pencegahan Data Leakage** — beberapa kolom sengaja dibuang dari fitur model:
+2. **Pencegahan Data Leakage**  beberapa kolom sengaja dibuang dari fitur model:
    | Kolom | Keputusan | Alasan |
    |---|---|---|
    | `Churn Score` | Dibuang | Skor risiko buatan sistem lain (r = 0,66 dgn target) — kalau dipakai, model cuma menebak ulang |
    | `Churn Reason` | Dibuang | Hanya terisi untuk pelanggan yang **sudah** churn — bocor ke jawaban |
    | `CustomerID`, `City` | Dibuang | Tanpa nilai prediktif / kardinalitas terlalu tinggi untuk baseline |
    | `CLTV` | Dipakai | Korelasi lemah (r = -0,13) terhadap target, bukan proxy churn |
-3. **Encoding & Split** — One-Hot Encoding, train-test split 80:20 (`stratify=y`)
-4. **Model Building** — Logistic Regression & Random Forest (`class_weight='balanced'`)
-5. **Evaluasi** — classification report, confusion matrix, ROC-AUC
-6. **Validasi Robust** — 5-fold Stratified Cross-Validation + **McNemar's Test** untuk menguji signifikansi statistik perbedaan performa model
-7. **Feature Importance** — dibandingkan silang dengan insight EDA
+3. **Encoding & Split**  One-Hot Encoding, train-test split 80:20 (`stratify=y`)
+4. **Model Building**  Logistic Regression & Random Forest (`class_weight='balanced'`)
+5. **Evaluasi**  classification report, confusion matrix, ROC-AUC
+6. **Validasi Robust**  5-fold Stratified Cross-Validation + **McNemar's Test** untuk menguji signifikansi statistik perbedaan performa model
+7. **Feature Importance**  dibandingkan silang dengan insight EDA
 
 ---
 
