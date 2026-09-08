@@ -8,13 +8,13 @@ Project lanjutan dari [Telco Customer Churn — Exploratory Data Analysis](https
 
 ## 📌 Latar Belakang
 
-Project EDA sebelumnya menemukan pola-pola jelas di balik churn (jenis kontrak, metode pembayaran, tenure, layanan tambahan). Pertanyaannya: **bisakah pola-pola ini dipakai untuk memprediksi**, bukan cuma menjelaskan, pelanggan mana yang akan churn — sebelum mereka benar-benar pergi?
+Project EDA sebelumnya menemukan pola-pola jelas di balik churn (jenis kontrak, metode pembayaran, tenure, layanan tambahan). Pertanyaannya: **bisakah pola-pola ini dipakai untuk memprediksi**, bukan cuma menjelaskan, pelanggan mana yang akan churn sebelum mereka benar-benar pergi?
 
 ---
 
 ## 🗂️ Dataset
 
-Sama persis dengan project EDA — 7.043 pelanggan, 33 kolom awal — supaya kedua project bisa dibandingkan *apple-to-apple*.
+Sama persis dengan project EDA (7.043 pelanggan, 33 kolom) supaya kedua project bisa dibandingkan *apple-to-apple*.
 
 ---
 
@@ -60,9 +60,9 @@ Sama persis dengan project EDA — 7.043 pelanggan, 33 kolom awal — supaya ked
 
 ## 💡 Key Findings
 
-- Data churn **imbalanced** (73,5% : 26,5%) — Accuracy sengaja tidak dipakai sebagai metrik penentu, melainkan **Recall**, karena biaya kehilangan pelanggan yang benar-benar churn lebih mahal dibanding *false alarm*
-- **Logistic Regression dipilih** sebagai model final — meski lebih sederhana dari Random Forest, recall-nya lebih tinggi dan terbukti signifikan lewat cross-validation & McNemar's test
-- Feature importance kedua model (Tenure, Contract, Charges, Payment Method) **konsisten dengan temuan EDA sebelumnya** — memvalidasi ulang insight dari kedua project
+- Data churn **imbalanced** (73,5% : 26,5%) Accuracy sengaja tidak dipakai sebagai metrik penentu, melainkan **Recall**, karena biaya kehilangan pelanggan yang benar-benar churn lebih mahal dibanding *false alarm*
+- **Logistic Regression dipilih** sebagai model final  meski lebih sederhana dari Random Forest, recall-nya lebih tinggi dan terbukti signifikan lewat cross-validation & McNemar's test
+- Feature importance kedua model (Tenure, Contract, Charges, Payment Method) **konsisten dengan temuan EDA sebelumnya** memvalidasi ulang insight dari kedua project
 - Trade-off diakui secara jujur: precision model hanya 51,1%, artinya perlu anggaran contact yang cukup di sisi tim retensi
 
 ---
