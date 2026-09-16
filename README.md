@@ -70,8 +70,8 @@ Sama persis dengan project EDA (7.043 pelanggan, 33 kolom) supaya kedua project 
 ## 📁 Struktur Repository
 
 ```
-├── Churn_Prediction_Modeling.ipynb   # Notebook utama (kode + hasil eksekusi)
-├── Telco_customer_churn.csv           # Dataset (sama dengan project EDA)
+├── Churn_Prediction_Modeling.ipynb   
+├── Telco_customer_churn.csv           
 └── README.md
 ```
 
